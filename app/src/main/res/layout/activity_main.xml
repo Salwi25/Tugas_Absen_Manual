@@ -19,11 +19,11 @@
         android:id="@+id/tanggal_masuk"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_marginTop="100dp"
         android:layout_marginStart="32dp"
+        android:layout_marginTop="100dp"
         android:layout_marginEnd="32dp"
-        android:hint="Masukkan tanggal"
         android:background="@drawable/textbox"
+        android:hint="Masukkan tanggal"
         android:paddingLeft="20dp" />
 
 
@@ -32,8 +32,8 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_below="@+id/tanggal_masuk"
-        android:layout_marginTop="20dp"
         android:layout_marginStart="32dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="32dp"
         android:background="@drawable/textbox"
         android:hint="Masukkan waktu"

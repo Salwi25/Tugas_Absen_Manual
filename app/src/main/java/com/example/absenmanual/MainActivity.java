@@ -56,6 +56,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                     @Override
                     public void onClick(DialogInterface dialog, int i) {
                         Toast.makeText(getApplicationContext(),"Absen berhasil", Toast.LENGTH_LONG).show();
+                        finish();
+                        startActivity(getIntent());
                     }
                 });
                 alertBuilder.setNegativeButton("Tidak", new DialogInterface.OnClickListener() {
